@@ -1,0 +1,56 @@
+<!--赋值链接-->
+<h1 style="" >红色{$this->time}</h1> <br/>
+<a href="{url:/Order/order_show}">测试连接</a> <br/>
+<a href="{skin:/image/logo.png}">测试图片</a> <br/>
+<!--赋值链接-->
+
+
+<!--js自动补充-->
+{js:validate}
+{js:form}
+<form name = "test">
+    <input name="phone" type="text"/>
+    <input type="submit"/>
+</form>
+<script>
+    var form = new Form("test");
+    form.init({'phone':"12314"});
+</script>
+<!--js自动补充-->
+
+
+<!--模板语句-->
+{set:$num=40}
+{if:$num>=90}
+优秀
+{elseif:$num>=70}
+良好
+{elseif:$num>=60}
+及格
+{else:}
+不及格
+{/if}
+
+{for:from = 12 upto = 20}
+{$i}<br/>
+{/for}
+<!--模板语句-->
+
+<!--数据查询-->
+{query:name=goods}
+{$item['name']}
+{/query}
+<!--数据查询-->
+
+
+
+
+
+
+
+
+
+
+
+
+
