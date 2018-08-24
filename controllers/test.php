@@ -18,7 +18,7 @@ class Test extends IController implements adminAuthorization
         $this->redirect("index");
     }
 
-    //调用自定义接口测试
+    //调用自定义接口测试【内部自定义】
     function getInterface(){
         $test = new TestApi();
         $test_rst = $test->index();
@@ -74,15 +74,35 @@ class Test extends IController implements adminAuthorization
     }
 
     /**
+     * 单个参数
      * api接口调试：外部【安卓，ios，h5，小程序】
      */
-    function getApiOut(){
+    function getApiOutSingle(){
         //请求参数列表
         $param = array(
             'method' => 'getGoodsList',
             'time' => time(),
             'rand' => rand(1000000,99999999),
-            'param' => array(2,3)
+            'param' => 2
+        );
+        //接口签名
+        $param['sign'] = $this->sign($param);
+        $url = "http://www.manman.com/index.php?controller=service&action=api&".http_build_query($param);
+        //执行
+        var_dump(file_get_contents($url));
+    }
+
+    /**
+     * 多个参数
+     * api接口调试：外部【安卓，ios，h5，小程序】
+     */
+    function getApiOutDouble(){
+        //请求参数列表
+        $param = array(
+            'method' => 'userLogin',
+            'time' => time(),
+            'rand' => rand(1000000,99999999),
+            'param' => array("15838281830","111111")
         );
         //接口签名
         $param['sign'] = $this->sign($param);

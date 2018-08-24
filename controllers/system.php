@@ -36,7 +36,7 @@ class System extends IController implements adminAuthorization
 		else
 		{
 			$title    = 'email test';
-			$content  = '您好，这是来自iWebShop系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。';
+			$content  = '您好，这是来自211gou系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。';
 			if($smtp->send($test_address,$title,$content))
 			{
 				$result = array('isError'=>false,'message' => '恭喜你！测试通过');
