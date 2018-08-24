@@ -2,128 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a51e4a9-50c6-4ccf-8031-352936ba3a97" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artTemplate/artTemplate-plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artTemplate/artTemplate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/artDialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/plugins/iframeTools.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/aero/aero_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/aero/aero_s2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/aero/ie6/aui_close.hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/aero/ie6/aui_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/aero/ie6/aui_e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/aero/ie6/aui_n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/aero/ie6/aui_ne.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/aero/ie6/aui_nw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/aero/ie6/aui_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/aero/ie6/aui_se.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/aero/ie6/aui_sw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/aero/ie6/aui_title_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/aero/ie6/aui_w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/black.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/black/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/black/bg2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/black/bg_css3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/black/bg_css3_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/black/ie6/close.hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/black/ie6/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/black/ie6/e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/black/ie6/n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/black/ie6/ne.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/black/ie6/nw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/black/ie6/s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/black/ie6/se.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/black/ie6/sw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/black/ie6/w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/blue/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/blue/bg2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/blue/bg_css3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/blue/bg_css3_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/blue/ie6/close.hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/blue/ie6/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/blue/ie6/e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/blue/ie6/n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/blue/ie6/ne.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/blue/ie6/nw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/blue/ie6/s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/blue/ie6/se.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/blue/ie6/sw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/blue/ie6/w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/chrome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/chrome/border.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/chrome/chrome_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/green/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/green/bg2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/green/bg_css3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/green/bg_css3_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/green/color_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/green/ie6/close.hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/green/ie6/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/green/ie6/e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/green/ie6/n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/green/ie6/ne.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/green/ie6/nw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/green/ie6/s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/green/ie6/se.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/green/ie6/sw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/green/ie6/w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/icons/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/icons/face-sad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/icons/face-smile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/icons/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/icons/question.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/icons/succeed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/icons/warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/idialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/idialog/idialog_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/idialog/idialog_s2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/idialog/ie6/aui_close.hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/idialog/ie6/aui_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/idialog/ie6/aui_e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/idialog/ie6/aui_n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/idialog/ie6/aui_ne.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/idialog/ie6/aui_nw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/idialog/ie6/aui_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/idialog/ie6/aui_se.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/idialog/ie6/aui_sw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/idialog/ie6/aui_w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/opera.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/opera/ie6/aui_close.hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/opera/ie6/aui_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/opera/ie6/aui_e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/opera/ie6/aui_n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/opera/ie6/aui_ne.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/opera/ie6/aui_nw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/opera/ie6/aui_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/opera/ie6/aui_se.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/opera/ie6/aui_sw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/opera/ie6/aui_w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/opera/s1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/opera/s2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/simple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/artdialog/skins/twitter.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/autovalidate/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/autovalidate/validate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/form/form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/jquery/jquery-1.12.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/jquerySlider/Options  Responsive jQuery Slider  bxSlider.mht" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/jquerySlider/images/bx_loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/jquerySlider/images/controls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/jquerySlider/jquery.bxslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/jquerySlider/jquery.bxslider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/jqueryZoom/imagezoom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/_systemjs/jqueryZoom/jquery.imagezoom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/cache/323/8b66658c761bb68f1b4b60afc2fdaef2.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/views/huawei/site/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/views/huawei/site/products.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/views/sysdm/tools/db_res.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/views/sysdm/tools/help_cat_list.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/system.php" afterPath="$PROJECT_DIR$/controllers/system.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/test.php" afterPath="$PROJECT_DIR$/controllers/test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -159,8 +38,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="25">
+              <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -338,6 +217,11 @@
               <item name="maneger" type="b2602c69:ProjectViewProjectNode" />
               <item name="maneger" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="maneger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maneger" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="runtime" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -384,12 +268,12 @@
       <workItem from="1534909153997" duration="542000" />
       <workItem from="1534909706116" duration="51000" />
       <workItem from="1534996726302" duration="11375000" />
-      <workItem from="1535071174774" duration="3585000" />
+      <workItem from="1535071174774" duration="3822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61937000" />
+    <option name="totallyTimeSpent" value="62174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -794,8 +678,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="25">
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
           <folding />
         </state>
       </provider>
