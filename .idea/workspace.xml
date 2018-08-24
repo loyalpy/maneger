@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a51e4a9-50c6-4ccf-8031-352936ba3a97" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2018/08/20/20180820111017912.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/sysdm/system/default.html" afterPath="$PROJECT_DIR$/views/sysdm/system/default.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,11 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api_resource.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="api_resource.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/api/api_resource.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1484">
               <caret line="796" column="17" lean-forward="false" selection-start-line="796" selection-start-column="17" selection-end-line="796" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/sysdm/system/default.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="173" column="59" lean-forward="false" selection-start-line="173" selection-start-column="59" selection-end-line="173" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -106,6 +116,7 @@
         <option value="$PROJECT_DIR$/controllers/test.php" />
         <option value="$PROJECT_DIR$/controllers/system.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/views/sysdm/system/default.html" />
       </list>
     </option>
   </component>
@@ -181,7 +192,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="bitcoin/bank_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/goods/goods_list.html&#10;goods.php&#9;FILE&#9;file://E:/webroot/maneger/controllers/goods.php&#10;goods_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/goods/goods_list.html" />
+    <property name="SearchEverywhereHistoryKey" value="default.html&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/system/default.html&#10;bitcoin/bank_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/goods/goods_list.html&#10;goods.php&#9;FILE&#9;file://E:/webroot/maneger/controllers/goods.php&#10;goods_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/goods/goods_list.html" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../www-xgx" />
   </component>
   <component name="RunDashboard">
@@ -217,12 +228,12 @@
       <workItem from="1534909153997" duration="542000" />
       <workItem from="1534909706116" duration="51000" />
       <workItem from="1534996726302" duration="11375000" />
-      <workItem from="1535071174774" duration="5737000" />
+      <workItem from="1535071174774" duration="6599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64089000" />
+    <option name="totallyTimeSpent" value="64951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -258,13 +269,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controllers/brand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1411">
-          <caret line="142" column="17" lean-forward="false" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/active.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-900">
@@ -632,6 +636,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1484">
           <caret line="796" column="17" lean-forward="false" selection-start-line="796" selection-start-column="17" selection-end-line="796" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/sysdm/system/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="173" column="59" lean-forward="false" selection-start-line="173" selection-start-column="59" selection-end-line="173" selection-end-column="59" />
           <folding />
         </state>
       </provider>
