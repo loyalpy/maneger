@@ -1,0 +1,28 @@
+<script>
+    loginTips();
+
+    /* 弹出登录信息 */
+    function loginTips() {
+        $.getJSON("{$ajaxUrl}", {"seller_id": "{$seller_id}", "time": "{$time}"}, function (json) {
+
+            if (json == '') {
+                return;
+            }
+
+            art.dialog(
+                {
+                    id: 'adminLoginTip',
+                    title: '欢迎登录平缘后台',
+                    content: json.text,
+                    left: '100%',
+                    top: '100%',
+                    fixed: true,
+                    drag: false,
+                    resize: false,
+                    init: function () {
+                        //播放音乐TODO::叮咚
+                    }
+                })
+        })
+    }
+</script>
