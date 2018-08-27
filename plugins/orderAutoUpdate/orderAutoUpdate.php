@@ -103,6 +103,7 @@ class orderAutoUpdate extends pluginBase
 		return array(
 			"order_finish_time" => array("name" => "已发货订单 X(分钟)自动完成","type" => "text","pattern" => "int"),
 			"order_cancel_time" => array("name" => "未付款订单 X(分钟)自动取消","type" => "text","pattern" => "int"),
+			"order_deal_type" => array("name" => "订单处理方法","type" => "select","value" => array("自动执行"=>1,"手动执行"=>2)),
 		);
 	}
 
