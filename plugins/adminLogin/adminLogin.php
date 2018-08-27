@@ -31,7 +31,7 @@ class adminLogin extends pluginBase
     public function reg()
     {
         //视图监听是否存在新订单提醒
-        plugin::reg("onFinishView", $this, 'tipAdminLogins');
+        plugin::reg("onFinishView@system@default", $this, 'tipAdminLogins');
 
         //获取当前管理员登录信息
         plugin::reg("onBeforeCreateAction@system@getAdminLoginInfo", function () {
