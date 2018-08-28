@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a51e4a9-50c6-4ccf-8031-352936ba3a97" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/项目介绍.txt" afterPath="$PROJECT_DIR$/项目介绍.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/adminLogin/adminLogin.html" afterPath="$PROJECT_DIR$/plugins/adminLogin/adminLogin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/adminLogin/adminLogin.php" afterPath="$PROJECT_DIR$/plugins/adminLogin/adminLogin.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,58 +17,18 @@
       <file leaf-file-name="adminLogin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/adminLogin/adminLogin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1825">
-              <caret line="73" column="72" lean-forward="false" selection-start-line="73" selection-start-column="72" selection-end-line="73" selection-end-column="72" />
+            <state relative-caret-position="697">
+              <caret line="74" column="28" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/plugin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="219" column="41" lean-forward="false" selection-start-line="219" selection-start-column="27" selection-end-line="219" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="项目介绍.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/项目介绍.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="74" lean-forward="false" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="time_class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/core/util/time_class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="49" column="34" lean-forward="false" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminLogin.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="adminLogin.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/adminLogin/adminLogin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="500">
+              <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -146,10 +106,10 @@
         <option value="$PROJECT_DIR$/views/sysdm/layouts/admin.html" />
         <option value="$PROJECT_DIR$/plugins/orderAutoUpdate/orderAutoUpdate.php" />
         <option value="$PROJECT_DIR$/classes/plugin.php" />
-        <option value="$PROJECT_DIR$/plugins/adminLogin/adminLogin.html" />
         <option value="$PROJECT_DIR$/controllers/admin.php" />
-        <option value="$PROJECT_DIR$/plugins/adminLogin/adminLogin.php" />
         <option value="$PROJECT_DIR$/项目介绍.txt" />
+        <option value="$PROJECT_DIR$/plugins/adminLogin/adminLogin.php" />
+        <option value="$PROJECT_DIR$/plugins/adminLogin/adminLogin.html" />
       </list>
     </option>
   </component>
@@ -189,6 +149,17 @@
             <path>
               <item name="maneger" type="b2602c69:ProjectViewProjectNode" />
               <item name="maneger" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="maneger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maneger" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="maneger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maneger" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="orderTip" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -240,7 +211,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81045000" />
+    <option name="totallyTimeSpent" value="82185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -592,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/orderTip/orderTip.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="32" column="24" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/web/js/source/editor/kindeditor-min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -687,14 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/adminLogin/adminLogin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/core/util/client_class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3328">
@@ -727,14 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="219" column="41" lean-forward="false" selection-start-line="219" selection-start-column="27" selection-end-line="219" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/core/util/time_class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -743,10 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/adminLogin/adminLogin.php">
+    <entry file="file://$PROJECT_DIR$/项目介绍.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1825">
-          <caret line="73" column="72" lean-forward="false" selection-start-line="73" selection-start-column="72" selection-end-line="73" selection-end-column="72" />
+        <state relative-caret-position="125">
+          <caret line="5" column="74" lean-forward="false" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
           <folding />
         </state>
       </provider>
@@ -759,10 +707,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/项目介绍.txt">
+    <entry file="file://$PROJECT_DIR$/classes/plugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="74" lean-forward="false" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+        <state relative-caret-position="395">
+          <caret line="219" column="41" lean-forward="false" selection-start-line="219" selection-start-column="27" selection-end-line="219" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/orderTip/orderTip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="32" column="24" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/adminLogin/adminLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="74" column="28" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/adminLogin/adminLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
           <folding />
         </state>
       </provider>

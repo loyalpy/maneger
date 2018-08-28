@@ -4,6 +4,7 @@
 
     /* 弹出登录信息 */
     function loginTips() {
+        var auto_hidden = "{$auto_hidden}";
         art.dialog(
             {
                 id: 'adminLoginTip',
@@ -16,7 +17,8 @@
                 resize: false,
                 init: function () {
                     //播放音乐TODO::叮咚
-                }
-         });
+                },
+                time: auto_hidden == 'on' ? 3 : ''//系统配置3秒后自动关闭
+            });
     }
 </script>
