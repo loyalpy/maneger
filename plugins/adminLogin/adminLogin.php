@@ -66,6 +66,7 @@ class adminLogin extends pluginBase
             $text .= "登录时间：" . $login_time . "<br />";
             $text .= "登录设备：" . IClient::getDevice() . "<br />";
             $text .= "登录地址：" . IClient::getIp() . "<br />";
+            $text .= "<a href='' style='color: #EDC764'>{$configData['motto']}</a><br />";
 
             $randerData = array(
                 "ajaxUrl" => IUrl::creatUrl('/system/getAdminLoginInfo'),

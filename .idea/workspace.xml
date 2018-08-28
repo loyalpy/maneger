@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a51e4a9-50c6-4ccf-8031-352936ba3a97" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/adminLogin/adminLogin.html" afterPath="$PROJECT_DIR$/plugins/adminLogin/adminLogin.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/adminLogin/adminLogin.php" afterPath="$PROJECT_DIR$/plugins/adminLogin/adminLogin.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,17 +13,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="adminLogin.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="adminLogin.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/adminLogin/adminLogin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="74" column="28" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="28" />
+            <state relative-caret-position="597">
+              <caret line="73" column="48" lean-forward="true" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+              <folding>
+                <marker date="1535427176170" expanded="true" signature="2111:2125" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orderTip.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/orderTip/orderTip.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="95" column="90" lean-forward="false" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="90" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminLogin.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="adminLogin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/adminLogin/adminLogin.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="500">
@@ -108,8 +119,8 @@
         <option value="$PROJECT_DIR$/classes/plugin.php" />
         <option value="$PROJECT_DIR$/controllers/admin.php" />
         <option value="$PROJECT_DIR$/项目介绍.txt" />
-        <option value="$PROJECT_DIR$/plugins/adminLogin/adminLogin.php" />
         <option value="$PROJECT_DIR$/plugins/adminLogin/adminLogin.html" />
+        <option value="$PROJECT_DIR$/plugins/adminLogin/adminLogin.php" />
       </list>
     </option>
   </component>
@@ -211,7 +222,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82185000" />
+    <option name="totallyTimeSpent" value="82951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -667,14 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/orderTip/orderTip.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1373">
-          <caret line="95" column="90" lean-forward="false" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/orderAutoUpdate/orderAutoUpdate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -723,19 +726,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/adminLogin/adminLogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="74" column="28" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/adminLogin/adminLogin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/orderTip/orderTip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="95" column="90" lean-forward="false" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/adminLogin/adminLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="73" column="48" lean-forward="true" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+          <folding>
+            <marker date="1535427176170" expanded="true" signature="2111:2125" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
