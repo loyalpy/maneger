@@ -46,24 +46,38 @@ class adminLogin extends pluginBase
      */
     public function tipAdminLogins()
     {
-        //管理员登录
-        $this->seller_id = ISafe::get('admin_name');
-        $ajaxUrl = IUrl::creatUrl('/system/getAdminLoginInfo');
-        $time = ITime::getDateTime();
+        //获取配置信息
+        $configData = $this->config();
 
-        //封装展示信息
-        $text = "登录账户：" . $this->seller_id . "<br/>";
-        $text .= "登录时间：" . $time . "<br />";
-        $text .= "登录设备：" . IClient::getDevice() . "<br />";
-        $text .= "登录地址：" . IClient::getIp() . "<br />";
+        //登录信息配置
+        $login_info = (isset($configData['loginInfo']) && $configData['loginInfo']) ? $configData['loginInfo'] : 'admin_name';
+        if ($login_info == "admin_name"){//登录名
+            $this->seller_id = ISafe::get('admin_name');
+        }else{//登录邮箱
+            $this->seller_id = ISafe::get('admin_email');
+        }
 
-        $randerData = array(
-            "ajaxUrl" => $ajaxUrl,
-            'time' => $time,
-            'seller_id' => $this->seller_id,
-            'content' => $text
-        );
-        $this->view('adminLogin', $randerData);
+        //隐藏开关
+        $order_cancel_time = (isset($configData['time']) && $configData['time']) ? $configData['time'] : 'on';
+
+        //登录时间
+        $login_time = ISafe::get('admin_login_time');
+        if (ITime::getTime() - strtotime($login_time) < 3){
+
+            //封装展示信息
+            $text = "登录账号：" . $this->seller_id . "<br/>";
+            $text .= "登录时间：" . $login_time . "<br />";
+            $text .= "登录设备：" . IClient::getDevice() . "<br />";
+            $text .= "登录地址：" . IClient::getIp() . "<br />";
+
+            $randerData = array(
+                "ajaxUrl" => IUrl::creatUrl('/system/getAdminLoginInfo'),
+                'time' => $login_time,
+                'seller_id' => $this->seller_id,
+                'content' => $text
+            );
+            $this->view('adminLogin', $randerData);
+        }
     }
 
     /**

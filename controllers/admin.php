@@ -58,6 +58,8 @@ class admin extends IController
 				ISafe::set('admin_id',$adminRow['id']);
 				ISafe::set('admin_name',$adminRow['admin_name']);
 				ISafe::set('admin_pwd',$adminRow['password']);
+				ISafe::set('admin_email',$adminRow['email']);
+				ISafe::set('admin_login_time',ITime::getDateTime());
 
 				//通知事件
 				plugin::trigger("adminLoginCallback",$adminRow);
