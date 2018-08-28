@@ -3,7 +3,7 @@
 
 常用路径
   前台登陆: http://您的网站域名
-  后台登陆: http://您的网站域名/index.php?controller=admin         user:admin psw:py910414
+  后台登陆: http://您的网站域名/index.php?controller=admin         user:admin psw:**910414
   商户登录：http://您的网站域名/index.php?controller=seller
 
 其他说明
