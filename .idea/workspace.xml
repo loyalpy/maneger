@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a51e4a9-50c6-4ccf-8031-352936ba3a97" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/sysdm/member/member_list.html" afterPath="$PROJECT_DIR$/views/sysdm/member/member_list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +25,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="member_list.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="member_list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/sysdm/member/member_list.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="18-08-28.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backup/logs/error/18-08-28.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2093">
+              <caret line="836" column="0" lean-forward="true" selection-start-line="836" selection-start-column="0" selection-end-line="853" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -106,7 +126,6 @@
         <option value="$PROJECT_DIR$/安装说明.txt" />
         <option value="$PROJECT_DIR$/controllers/test.php" />
         <option value="$PROJECT_DIR$/controllers/system.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/views/sysdm/system/default.html" />
         <option value="$PROJECT_DIR$/views/sysdm/system/conf_guide.html" />
         <option value="$PROJECT_DIR$/views/sysseller/seller/seller_edit.html" />
@@ -122,6 +141,7 @@
         <option value="$PROJECT_DIR$/plugins/adminLogin/adminLogin.html" />
         <option value="$PROJECT_DIR$/plugins/adminLogin/adminLogin.php" />
         <option value="$PROJECT_DIR$/views/sysdm/member/member_list.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -212,7 +232,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84835000" />
+    <option name="totallyTimeSpent" value="85634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -261,23 +281,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/runtime/cache/64/0d270900064cd74cc5e51c5ea0c55247.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/core/query_class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1534845370621" expanded="true" signature="5358:5475" ph="select ${$th... ${$this-&gt;table}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/core/tag_class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-975">
@@ -740,6 +743,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/logs/error/18-08-28.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2093">
+          <caret line="836" column="0" lean-forward="true" selection-start-line="836" selection-start-column="0" selection-end-line="853" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding />
         </state>
       </provider>

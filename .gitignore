@@ -1,0 +1,21 @@
+# IDE
+.idea
+.idea/workspace.xml
+.settings/*
+.buildpath
+.settings/
+
+# Vim swap
+*.swp
+.swp
+.swo
+*.swo
+.swn
+*.swn
+*.map
+**/*/.sass-cache/*
+.sass-cache/*
+.metadata/
+.project
+RemoteSystemsTempFiles
+runtime/*
