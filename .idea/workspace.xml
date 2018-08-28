@@ -16,10 +16,10 @@
       <file leaf-file-name="adminLogin.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/adminLogin/adminLogin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="73" column="48" lean-forward="true" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+            <state relative-caret-position="347">
+              <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
               <folding>
-                <marker date="1535427176170" expanded="true" signature="2111:2125" ph="..." />
+                <marker date="1535427364548" expanded="true" signature="2112:2126" ph="..." />
               </folding>
             </state>
           </provider>
@@ -222,7 +222,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82951000" />
+    <option name="totallyTimeSpent" value="83091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -744,10 +744,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/adminLogin/adminLogin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="73" column="48" lean-forward="true" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+        <state relative-caret-position="347">
+          <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
           <folding>
-            <marker date="1535427176170" expanded="true" signature="2111:2125" ph="..." />
+            <marker date="1535427364548" expanded="true" signature="2112:2126" ph="..." />
           </folding>
         </state>
       </provider>

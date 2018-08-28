@@ -25,7 +25,7 @@ class adminLogin extends pluginBase
         return array(
             "time" => array("name" => "自动关闭弹框", "type" => "select", "value" => array("开" => "on", "关" => "off")),
             "loginInfo" => array("name" => "登录账号展示信息", "type" => "select", "value" => array("用户名" => "admin_name", "邮箱" => "email")),
-            "motto" => array("name" => "座右铭", "type" => "text", "value" => "一切美好只是昨日沉醉 淡淡苦涩才是今天滋味"),
+            "motto" => array("name" => "每日良言", "type" => "text", "value" => "一切美好只是昨日沉醉 淡淡苦涩才是今天滋味"),
         );
     }
 
