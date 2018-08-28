@@ -23,9 +23,31 @@ class adminLogin extends pluginBase
     public static function configName()
     {
         return array(
-            "time" => array("name" => "自动关闭弹框", "type" => "select", "value" => array("开" => "on", "关" => "off")),
-            "loginInfo" => array("name" => "登录账号展示信息", "type" => "select", "value" => array("用户名" => "admin_name", "邮箱" => "email")),
-            "motto" => array("name" => "每日良言", "type" => "text", "value" => "一切美好只是昨日沉醉 淡淡苦涩才是今天滋味"),
+            "time" => array(
+                "name" => "自动关闭弹框",
+                "type" => "select",
+                "value" => array("开" => "on", "关" => "off")
+            ),
+            "loginInfo" => array(
+                "name" => "登录账号展示信息",
+                "type" => "select",
+                "value" => array("用户名" => "admin_name", "邮箱" => "email")
+            ),
+            "motto" => array(
+                "name" => "每日良言",
+                "type" => "select",
+                "value" => array(
+                    "一切美好只是昨日沉醉 淡淡苦涩才是今天滋味" => "一切美好只是昨日沉醉 淡淡苦涩才是今天滋味",
+                    "敢作敢当 才能无怨无悔" => "敢作敢当 才能无怨无悔",
+                    "人若勇敢就是自己最好的朋友" => "人若勇敢就是自己最好的朋友",
+                    "凡事追求但不强求" => "凡事追求但不强求",
+                    "不要轻率相信毁谤任何人的流言" => "不要轻率相信毁谤任何人的流言",
+                    "自己要先看得起自己，别人才会看得起你" => "自己要先看得起自己，别人才会看得起你",
+                    "我喜欢笑，那种无拘无束的大笑" => "我喜欢笑，那种无拘无束的大笑",
+                    "与其临渊羡鱼，不如退而结网" => "与其临渊羡鱼，不如退而结网",
+                    "经验是由痛苦中粹取出来的" => "经验是由痛苦中粹取出来的",
+                )
+            ),
         );
     }
 
