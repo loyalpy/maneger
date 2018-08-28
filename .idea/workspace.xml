@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a51e4a9-50c6-4ccf-8031-352936ba3a97" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/adminLogin/adminLogin.php" afterPath="$PROJECT_DIR$/plugins/adminLogin/adminLogin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/sysdm/member/member_list.html" afterPath="$PROJECT_DIR$/views/sysdm/member/member_list.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,10 +13,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="adminLogin.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="adminLogin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/adminLogin/adminLogin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
+            <state relative-caret-position="-53">
               <caret line="47" column="51" lean-forward="false" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
               <folding>
                 <marker date="1535428020812" expanded="true" signature="2819:2833" ph="..." />
@@ -25,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orderTip.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/orderTip/orderTip.php">
+      <file leaf-file-name="member_list.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/sysdm/member/member_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="95" column="90" lean-forward="false" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="90" />
+            <state relative-caret-position="300">
+              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -121,6 +121,7 @@
         <option value="$PROJECT_DIR$/项目介绍.txt" />
         <option value="$PROJECT_DIR$/plugins/adminLogin/adminLogin.html" />
         <option value="$PROJECT_DIR$/plugins/adminLogin/adminLogin.php" />
+        <option value="$PROJECT_DIR$/views/sysdm/member/member_list.html" />
       </list>
     </option>
   </component>
@@ -161,17 +162,6 @@
               <item name="maneger" type="b2602c69:ProjectViewProjectNode" />
               <item name="maneger" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="maneger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maneger" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="maneger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maneger" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="orderTip" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -181,7 +171,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="cart2.html&#9;FILE&#9;file://E:/webroot/maneger/views/huawei/simple/cart2.html&#10;order_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/order/order_list.html&#10;index.html&#9;FILE&#9;file://E:/webroot/maneger/views/huawei/site/index.html&#10;default.html&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/system/default.html&#10;bitcoin/bank_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/goods/goods_list.html&#10;goods.php&#9;FILE&#9;file://E:/webroot/maneger/controllers/goods.php&#10;goods_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/goods/goods_list.html" />
+    <property name="SearchEverywhereHistoryKey" value="member_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/member/member_list.html&#10;cart2.html&#9;FILE&#9;file://E:/webroot/maneger/views/huawei/simple/cart2.html&#10;order_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/order/order_list.html&#10;index.html&#9;FILE&#9;file://E:/webroot/maneger/views/huawei/site/index.html&#10;default.html&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/system/default.html&#10;bitcoin/bank_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/goods/goods_list.html&#10;goods.php&#9;FILE&#9;file://E:/webroot/maneger/controllers/goods.php&#10;goods_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/goods/goods_list.html" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../www-xgx" />
   </component>
   <component name="RunDashboard">
@@ -222,7 +212,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83747000" />
+    <option name="totallyTimeSpent" value="84835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -271,20 +261,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/payments/pay_allpay/allpay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3150">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/area.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runtime/cache/64/0d270900064cd74cc5e51c5ea0c55247.data">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -726,6 +702,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/orderTip/orderTip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="95" column="90" lean-forward="false" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/adminLogin/adminLogin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -734,21 +718,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/orderTip/orderTip.php">
+    <entry file="file://$PROJECT_DIR$/plugins/sellerDecorate/sellerTheme/default/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="95" column="90" lean-forward="false" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="90" />
+        <state relative-caret-position="-16403">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/adminLogin/adminLogin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
+        <state relative-caret-position="-53">
           <caret line="47" column="51" lean-forward="false" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
           <folding>
             <marker date="1535428020812" expanded="true" signature="2819:2833" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/sysdm/member/member_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
