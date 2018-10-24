@@ -138,7 +138,6 @@ class Block extends IController
 		{
 			IError::show(403,'发生支付错误');
 		}
-
 		$paymentInstance->doPay($sendData);
 	}
 
