@@ -10,4 +10,31 @@
       <display/>
     </data>
   </url>
+  <url>
+    <loc>http://www.manman.com/index.php?controller=site&amp;action=products&amp;id=3</loc>
+    <lastmod>2018-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <data>
+      <display/>
+    </data>
+  </url>
+  <url>
+    <loc>http://www.manman.com/index.php?controller=site&amp;action=products&amp;id=4</loc>
+    <lastmod>2018-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <data>
+      <display/>
+    </data>
+  </url>
+  <url>
+    <loc>http://www.manman.com/index.php?controller=site&amp;action=products&amp;id=5</loc>
+    <lastmod>2018-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <data>
+      <display/>
+    </data>
+  </url>
 </urlset>

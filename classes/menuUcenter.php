@@ -46,7 +46,7 @@ class menuUcenter
             "/ucenter/address" => "地址管理",
             "/ucenter/info" => "个人资料",
             "/ucenter/password" => "修改密码",
-            "/ucenter/invoice" => "发票管理",
+//            "/ucenter/invoice" => "发票管理",
         ),
 
 		"应用" => array(

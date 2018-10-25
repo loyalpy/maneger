@@ -51,7 +51,7 @@ function orderFormClass()
 		art.dialog.open(creatUrl("block/address/id/"+addressId),
 		{
 			"id":"addressWindow",
-			"title":"修改收货地址",
+			"title":"修改收货人信息",
 			"ok":function(iframeWin, topWin){
 				var formObject = iframeWin.document.forms[0];
 				if(formObject.onsubmit() === false)
@@ -105,7 +105,7 @@ function orderFormClass()
 		art.dialog.open(creatUrl("block/address"),
 		{
 			"id":"addressWindow",
-			"title":"添加收货地址",
+			"title":"添加收货人信息",
 			"ok":function(iframeWin, topWin){
 				var formObject = iframeWin.document.forms[0];
 				if(formObject.onsubmit() === false)

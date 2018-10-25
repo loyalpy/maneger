@@ -74,19 +74,19 @@
 				<li>送积分：单件送{$point}分</li>
 				{/if}
 
-				<li>
-					至
-					<a class="sel_area blue" href="javascript:;" name="localArea">当前地区</a>：
-					<span id="deliveInfo"></span>
-					<div class="area_box">
-						<ul>
-							<li><a data-code="1" href="#J_PostageTableCont"><strong>全部</strong></a></li>
-							{foreach:items=Api::run('getAreasListTop')}
-							<li><a href="javascript:void(0);" name="areaSelectButton" value="{$item['area_id']}">{$item['area_name']}</a></li>
-							{/foreach}
-						</ul>
-					</div>
-				</li>
+				<!--<li>-->
+					<!--至-->
+					<!--<a class="sel_area blue" href="javascript:;" name="localArea">当前地区</a>：-->
+					<!--<span id="deliveInfo"></span>-->
+					<!--<div class="area_box">-->
+						<!--<ul>-->
+							<!--<li><a data-code="1" href="#J_PostageTableCont"><strong>全部</strong></a></li>-->
+							<!--{foreach:items=Api::run('getAreasListTop')}-->
+							<!--<li><a href="javascript:void(0);" name="areaSelectButton" value="{$item['area_id']}">{$item['area_name']}</a></li>-->
+							<!--{/foreach}-->
+						<!--</ul>-->
+					<!--</div>-->
+				<!--</li>-->
 
 				<!--商家信息 开始-->
 				{if:isset($seller)}
@@ -196,7 +196,7 @@
 					</ul>
 					{if:isset($content) && $content}
 					<article class="article_content">
-						<h3>产品描述：</h3>
+						<!--<h3>产品介绍：</h3>-->
 						{$content}
 					</article>
 					{/if}

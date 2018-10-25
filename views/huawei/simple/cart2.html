@@ -37,10 +37,10 @@ $(function(){
 		<input type='hidden' name='direct_num' value='{$this->num}' />
 		<input type='hidden' name='direct_promo' value='{$this->promo}' />
 		<input type='hidden' name='direct_active_id' value='{$this->active_id}' />
-		<section class="cart_item">
+		<section class="cart_item" >
 			<h3>收货人信息</h3>
 			<div class="cart_item_addr">
-				<h4>常用收货地址</h4>
+				<h4>请选择或者添加收货人信息</h4>
 				<ul class="addr_list">
 					{foreach:items=$this->addressList}
 					<li id="addressItem{$item['id']}">
@@ -48,23 +48,23 @@ $(function(){
 							<input class="radio" name="radio_address" type="radio" value="{$item['id']}" onclick="orderFormInstance.getDelivery({$item['province']});" />
 							<strong>{$item['accept_name']}</strong> {$item['province_val']} {$item['city_val']} {$item['area_val']} {$item['address']}
 						</label>
-						[<span onclick="orderFormInstance.addressEdit({$item['id']})">修改地址</span>]
+						[<span onclick="orderFormInstance.addressEdit({$item['id']})">修改</span>]
 						[<span onclick="orderFormInstance.addressDel({$item['id']})">删除</span>]
 					</li>
 					{/foreach}
 					<li>
-						<label><a href="javascript:orderFormInstance.addressAdd();" style="color:#005ea7;">添加新地址</a></label>
+						<label><a href="javascript:orderFormInstance.addressAdd();" style="color:#005ea7;">添加收货人信息</a></label>
 					</li>
 				</ul>
 				<!--收货地址项模板-->
 				<script type='text/html' id='addressLiTemplate'>
 				<li id="addressItem<%=item['id']%>">
-					<label><input class="radio" name="radio_address" type="radio" value="<%=item['id']%>" onclick="orderFormInstance.getDelivery(<%=item['province']%>);" /><%=item['accept_name']%>&nbsp;&nbsp;&nbsp;<%=item['province_val']%> <%=item['city_val']%> <%=item['area_val']%> <%=item['address']%></label> [<a href="javascript:orderFormInstance.addressEdit(<%=item['id']%>);" style="color:#005ea7;">修改地址</a>] [<a href="javascript:orderFormInstance.addressDel(<%=item['id']%>);" style="color:#005ea7">删除</a>]
+					<label><input class="radio" name="radio_address" type="radio" value="<%=item['id']%>" onclick="orderFormInstance.getDelivery(<%=item['province']%>);" /><%=item['accept_name']%>&nbsp;&nbsp;&nbsp;<%=item['province_val']%> <%=item['city_val']%> <%=item['area_val']%> <%=item['address']%></label> [<a href="javascript:orderFormInstance.addressEdit(<%=item['id']%>);" style="color:#005ea7;">修改</a>] [<a href="javascript:orderFormInstance.addressDel(<%=item['id']%>);" style="color:#005ea7">删除</a>]
 				</li>
 				</script>
 			</div>
 		</section>
-		<section class="cart_item">
+		<section class="cart_item" >
 			<h3>配送方式</h3>
 			<div class="cart_item_express">
 				<table>
@@ -75,7 +75,7 @@ $(function(){
 						<tr>
 							<th>
 								<label>
-									<input type="radio" name="delivery_id" value="{$item['id']}" paytype="{$item['type']}" onclick='orderFormInstance.deliverySelected({$item['id']});' />
+									<input checked type="radio" name="delivery_id" value="{$item['id']}" paytype="{$item['type']}" onclick='orderFormInstance.deliverySelected({$item['id']});' />
 									{$item['name']}
 								</label>
 							</th>
@@ -104,7 +104,7 @@ $(function(){
 						[<%=item['address']%> <%=item['name']%> <%=item['phone']%> <%=item['mobile']%>]
 					</script>
 
-					<tfoot>
+					<tfoot style="display: none">
 						<th>指定送货时间：</th>
 						<td>
 							<label class='attr'><input type='radio' name='accept_time' checked="checked" value='任意' /> 任意</label>
@@ -224,7 +224,7 @@ $(function(){
 						<span>使用代金卷</span>
 					</div>
 				</div>
-				<table>
+				<table style="display: none">
 					<col width="220">
 					<col>
 					<col width="250">

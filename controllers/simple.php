@@ -422,6 +422,7 @@ class Simple extends IController
 		{
 			IError::show(403,"收货地址信息不存在");
 		}
+
     	$accept_name   = IFilter::act($addressRow['accept_name'],'name');
     	$province      = $addressRow['province'];
     	$city          = $addressRow['city'];

@@ -692,7 +692,7 @@ abbr[title], acronym[title] { border-bottom: 1px dotted; cursor: help; }
 .article header .article_title { font-size: 22px; color: #191919; text-align: center; padding: 22px 0 28px; white-space: nowrap; overflow: hidden; font-weight: 400; }
 .article header .article_date { text-align: right; height: 27px; line-height: 27px; color: #4c4c4c; display: block; text-indent: 2em; }
 
-.article_content { padding: 50px 6px 70px; font-size: 13px; overflow: hidden; line-height: 1.6; }
+.article_content { padding: 20px 6px 70px; font-size: 13px; overflow: hidden; line-height: 1.6; }
 .article_content p { margin-bottom: 19px; text-indent: 2em; }
 .article_content a, .article_content span, .article_content em, .article_content i, .article_content u, .article_content strong, .article_content b { padding: 0 5px; line-height: 18px; }
 .article_content u { text-decoration: none; border-bottom: 1px solid #555; }

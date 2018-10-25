@@ -381,7 +381,7 @@ class Site extends IController
 		$tb_shop = new IQuery('order_goods as og');
 		$tb_shop->join = 'left join order as o on o.id=og.order_id';
 		$tb_shop->fields = 'count(*) as totalNum';
-		$tb_shop->where = 'og.goods_id='.$goods_id.' and o.status = 5';
+		$tb_shop->where = 'og.goods_id='.$goods_id.' and o.status in (2,5)';
 		$shop_info = $tb_shop->find();
 		$goods_info['buy_num'] = 0;
 		if($shop_info)
