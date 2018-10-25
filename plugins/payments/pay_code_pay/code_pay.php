@@ -52,13 +52,12 @@ class code_pay extends paymentPlugin
 	{
 		$IDcode   = Payment::getConfigParam($paymentId,'Signature');
 		$md5Code               = $this->createMD5($callbackData,$IDcode);
-
 		//校验md5码 防止篡改数据
-		if($callbackData['sign'] == $md5Code && $callbackData['pay_no'])
+
+		if($callbackData['sign'] == $md5Code && $callbackData['pay_no'] && $callbackData['money'] > 0 && !empty($callbackData['pay_id']) && $callbackData['pay_time'] > 0)
 		{
             $orderNo  = $callbackData['pay_id'];//需要充值的ID 或订单号 或用户名
-            $money    = (float)$callbackData['money'];//实际付款金额
-
+            $money    = $callbackData['money'];
             //记录回执流水号
             if(isset($callbackData['pay_no']) && $callbackData['pay_no'])
             {

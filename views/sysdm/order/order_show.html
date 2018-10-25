@@ -571,7 +571,7 @@ function initButton()
 	{/if}
 
 	//付款
-	{if:in_array($orderStatus,array(11,2))}
+	{if:in_array($orderStatus,array(11,2,5))}
 	$('#to_pay').removeAttr('disabled');
 	$('#to_pay').removeClass('inactive');
 	{/if}

@@ -19,14 +19,15 @@
 	<div class="user_info">
 		<h2>{$this->user['username']}，欢迎您</h2>
 		<ol class="user_baseinfo">
+			<li>账户余额：<strong>￥{$user['balance']}</strong></li>
 			<li>总积分：<a href="{url:/ucenter/integral}"><strong>{$user['point']}</strong> 分</a></li>
-			<li>交易总数量：<a href="{url:/ucenter/order}"><strong>{$statistics['num']}</strong> 笔</a></li>
-			<li>总消费额：<strong>￥{$statistics['amount']}</strong></li>
+			<li>经验值：<strong>{$user['exp']}</strong></li>
+
 		</ol>
 		<ol class="user_stat">
-			<li>预存款余额：<strong>￥{$user['balance']}</strong></li>
 			<li>代金券：<strong>{$propData['prop_num']}</strong> 张</li>
-			<li>经验值：<strong>{$user['exp']}</strong></li>
+			<li>交易总数量：<a href="{url:/ucenter/order}"><strong>{$statistics['num']}</strong> 笔</a></li>
+			<li>总消费额：<strong>￥{$statistics['amount']}</strong></li>
 		</ol>
 		<ol class="user_stat">
 			<li>待评价商品：(<strong>{echo:statistics::countUserWaitComment()}</strong>)</li>
