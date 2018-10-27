@@ -156,6 +156,9 @@ class Goods extends IController implements adminAuthorization
 			die("没有找到相关商品！");
 		}
 
+        //配置系统自动发货自定义配置，新增返回商品id
+        $data['produce_id'] = $goods_id;
+
 		$this->setRenderData($data);
 		$this->redirect('goods_edit');
 	}

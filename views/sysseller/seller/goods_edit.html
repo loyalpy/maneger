@@ -1,6 +1,7 @@
 {js:kindeditor}
 {js:my97date}
 {js:fileUpload}
+{js:artTemplate}
 {set:$seller_id = $this->seller['seller_id']}
 <article class="module width_full">
 	<header>
@@ -10,6 +11,7 @@
 			<li id="li_1" class="active"><a href="javascript:select_tab('1');">商品信息</a></li>
 			<li id="li_2"><a href="javascript:select_tab('2');">描述</a></li>
 			<li id="li_3"><a href="javascript:select_tab('3');">SEO优化</a></li>
+			<li id="li_4"><a href="javascript:select_tab('4');">系统自动发货配置</a></li>
 		</ul>
 	</header>
 
@@ -264,6 +266,57 @@
 		</div>
 		<!--SEO 结束-->
 
+		<!--系统自动发货 开始-->
+		<div class="module_content" id="table_box_4" style="display:none;">
+			<table class="table list-table" id='guide_box'>
+				<colgroup>
+					<col width="250px" />
+					<col width="350px" />
+					<col width="220px" />
+				</colgroup>
+				<thead>
+				<tr>
+					<th>产品名称</th>
+					<th>产品内容</th>
+					<th>操作</th>
+				</tr>
+				</thead>
+
+				<tbody></tbody>
+
+				<!--导航行模板-->
+				<script type='text/html' id='guideTrTemplate'>
+					<tr>
+						<td>
+							<fieldset>
+							<input type='text' name='guide_name[]' class='form-control' value='<%=produce_key%>' pattern='required' alt='请填写产品名称' />
+							</fieldset>
+						</td>
+						<td>
+							<fieldset>
+							<input type='text' name='guide_link[]' class='form-control' value='<%=produce_value%>' pattern='required' alt='请填写产品内容' />
+							</fieldset>
+						</td>
+						<td>
+							<a href="javascript:;"><i class='operator fa fa-arrow-up' alt='向上' title='向上'></i></a>
+							<a href="javascript:;"><i class='operator fa fa-arrow-down' alt='向下' title='向下'></i></a>
+							<a href="javascript:;"><i class='operator fa fa-close' alt='删除' title='删除'></i></a>
+						</td>
+					</tr>
+				</script>
+
+				<tfoot>
+				<tr>
+					<td colspan="3">
+						<input type="button"  onclick="add_guide();" value="新加一个"/>
+						<input type="submit" class="alt_btn" value="保存数据"/>
+					</td>
+				</tr>
+				</tfoot>
+			</table>
+		</div>
+		<!--系统自动发货 结束-->
+
 		<footer>
 			<div class="submit_link">
 				<input type="submit" class="alt_btn" value="确 定" onclick="return checkForm()" />
@@ -429,4 +482,102 @@ function addNewSpec(seller_id)
 	});
 }
 </script>
+
+<!--系统自动发货配置信息-->
+<script type='text/javascript'>
+    //DOM加载完毕
+    $(function(){
+        //生成导航
+        {if:$guideList = Api::run('getGoodsProduceById',array('#id#',$produce_id))}
+        var guideList = {$guideList[0]['spec_array_produce']};
+        for(var index in guideList)
+        {
+            add_guide(guideList[index]);
+        }
+        {else:}
+        add_guide();
+        {/if}
+        });
+
+    //添加导航
+    function add_guide(data)
+    {
+        var data = data ? data : {};
+        var guideTrHtml = template.render('guideTrTemplate',data);
+        $('#guide_box tbody').append(guideTrHtml);
+        var last_index = $('#guide_box tbody tr').size()-1;
+        buttonInit(last_index);
+    }
+
+    //操作按钮绑定
+    function buttonInit(indexValue,ele)
+    {
+        ele = ele || "#guide_box";
+        if(indexValue == undefined || indexValue === '')
+        {
+            var button_times = $(ele+' tbody tr').length;
+
+            for(var item=0;item < button_times;item++)
+            {
+                buttonInit(item,ele);
+            }
+        }
+        else
+        {
+            var obj = $(ele+' tbody tr:eq('+indexValue+') .operator')
+
+            //功能操作按钮
+            obj.each(
+                function(i)
+                {
+                    switch(i)
+                    {
+                        //向上排序
+                        case 0:
+                        {
+                            $(this).click(
+                                function()
+                                {
+                                    var insertIndex = $(this).parent().parent().parent().prev().index();
+                                    if(insertIndex >= 0)
+                                    {
+                                        $(ele+' tbody tr:eq('+insertIndex+')').before($(this).parent().parent().parent());
+                                    }
+                                }
+                            )
+                        }
+                            break;
+
+                        //向上排序
+                        case 1:
+                        {
+                            $(this).click(
+                                function()
+                                {
+                                    var insertIndex = $(this).parent().parent().parent().next().index();
+                                    $(ele+' tbody tr:eq('+insertIndex+')').after($(this).parent().parent().parent());
+                                }
+                            )
+                        }
+                            break;
+
+                        //删除排序
+                        case 2:
+                        {
+                            $(this).click(
+                                function()
+                                {
+                                    var obj = $(this);
+                                    art.dialog.confirm('确定要删除么？',function(){obj.parent().parent().parent().remove()});
+                                }
+                            )
+                        }
+                            break;
+                    }
+                }
+            )
+        }
+    }
+</script>
+
 <script type="text/javascript" src="{webroot:public/javascript/goods_edit.js}"></script>

@@ -485,6 +485,15 @@ return array(
         )
     ),
 
+    //根据商品id取商品系统自动发货配置信息
+    'getGoodsProduceById'=>array(
+        'query'=>array(
+            'name'   => 'goods',
+            'fields' => 'spec_array_produce',
+            'where'  => "id = #id#",
+        )
+    ),
+
     //帮助中心列表
     'getHelpList' => array(
     	'query' => array(

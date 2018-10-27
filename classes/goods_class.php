@@ -136,6 +136,24 @@ class goods_class
 			$goodsUpdateData['spec_array'] = IFilter::act(JSON::encode($goods_spec_array));
 		}
 
+		//系统自动发货配置信息
+        $guideName = IReq::get('guide_name');
+        $guideLink = IReq::get('guide_link');
+        $produce_data      = array();
+
+        if($guideName)
+        {
+            foreach($guideName as $key => $val)
+            {
+                $produce_data[$key]['produce'] = $key;
+                $produce_data[$key]['produce_key']  = $guideName[$key];
+                $produce_data[$key]['produce_value']  = $guideLink[$key];
+            }
+        }
+        $goodsUpdateData['spec_array_produce'] = JSON::encode($produce_data);
+        unset($goodsUpdateData['guide_name']);
+        unset($goodsUpdateData['guide_link']);
+
 		//用sell_price最小的货品填充商品表
 		$defaultKey = array_search(min($postData['_sell_price']),$postData['_sell_price']);
 
