@@ -494,6 +494,15 @@ return array(
         )
     ),
 
+    //根据订单id取商品系统自动发货配置信息,商品id
+    'getGoodsIdByOrderId'=>array(
+        'query'=>array(
+            'name'   => 'order_goods',
+            'fields' => 'goods_id,spec_array_produce',
+            'where'  => "order_id = #order_id#",
+        )
+    ),
+
     //帮助中心列表
     'getHelpList' => array(
     	'query' => array(

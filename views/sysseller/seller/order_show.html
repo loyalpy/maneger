@@ -9,6 +9,7 @@
 			<li id="li_4"><a href="javascript:select_tab('4');">发票和备注</a></li>
 			<li id="li_5"><a href="javascript:select_tab('5');">订单日志</a></li>
 			<li id="li_6"><a href="javascript:select_tab('6');">订单附言</a></li>
+			<li id="li_7"><a href="javascript:select_tab('7');">商品发货信息</a></li>
 		</ul>
 	</header>
 
@@ -436,6 +437,18 @@
 			<label>订单附言</label>
 			<div class="box">{$postscript}</div>
 		</fieldset>
+	</div>
+
+	<div class="module_content" id="tab-7">
+		{foreach:items=Api::run('getOrderGoodsRowByOrderId',array('id'=>$order_id))}
+		{set:$spec_array_produce = JSON::decode($item['spec_array_produce'])}
+		{foreach:items=$spec_array_produce}
+		<fieldset>
+			<label>{$item['produce_key']}:：</label>
+			{$item['produce_value']}
+		</fieldset>
+		{/foreach}
+		{/foreach}
 	</div>
 </article>
 

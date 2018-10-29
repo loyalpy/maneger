@@ -118,9 +118,23 @@ class Order_Class
 				return false;
 			}
 
-            //系统自动发货
+            //存储系统自动发货配置信息
+            $is_comple_arr = array(
+                'is_send' => 1
+            );
+            $_goods_arr = Api::run('getGoodsIdByOrderId',array('#order_id#',$orderRow['id']));
+			if (isset($_goods_arr[0]['goods_id']) && $_goods_arr[0]['goods_id']){
+                $spec_array_produce = Api::run('getGoodsProduceById',array('#id#',$_goods_arr[0]['goods_id']));
+                if (isset($spec_array_produce[0]['spec_array_produce']) && $spec_array_produce[0]['spec_array_produce']){
+                    $is_comple_arr = array(
+                        'is_send' => 1,
+                        'spec_array_produce' => $spec_array_produce[0]['spec_array_produce']
+                    );
+                }
+            }
+
             $orderGoodsDB = new IModel('order_goods');
-            $orderGoodsDB->setData(array('is_send' => 1));
+            $orderGoodsDB->setData($is_comple_arr);
             $orderGoodsDB->update('order_id = '.$orderRow['id']);
 
 			//删除订单中使用的道具
@@ -579,10 +593,6 @@ class Order_Class
 				$goodsArray['goods_weight']= $val['weight'];
 				$goodsArray['goods_array'] = IFilter::addSlash(JSON::encode($specArray));
 				$goodsArray['seller_id']   = $val['seller_id'];
-
-				//存储系统自动发货配置信息
-                $spec_array_produce = Api::run('getGoodsProduceById',array('#id#',$val['goods_id']));
-				$goodsArray['spec_array_produce']   = isset($spec_array_produce[0]['spec_array_produce'])?$spec_array_produce[0]['spec_array_produce']:0;
 
 				$orderGoodsObj->setData($goodsArray);
 				if(!$orderGoodsObj->add())

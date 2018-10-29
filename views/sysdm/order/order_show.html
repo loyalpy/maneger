@@ -29,6 +29,7 @@
 			<li><a href="#tab4" data-toggle="tab">发票和备注</a></li>
 			<li><a href="#tab5" data-toggle="tab">订单日志</a></li>
 			<li><a href="#tab6" data-toggle="tab">订单附言</a></li>
+			<li><a href="#tab7" data-toggle="tab">商品发货信息</a></li>
 		</ul>
 
 		<div class="tab-content">
@@ -535,6 +536,27 @@
 							<th>订单附言:</th>
 							<td>{$postscript}</td>
 						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="tab-pane" id="tab7">
+				<table class="table form-table">
+					<colgroup>
+						<col width="120px" />
+						<col />
+					</colgroup>
+
+					<tbody>
+					{foreach:items=Api::run('getOrderGoodsRowByOrderId',array('id'=>$order_id))}
+					{set:$spec_array_produce = JSON::decode($item['spec_array_produce'])}
+						{foreach:items=$spec_array_produce}
+						<tr>
+							<th>{$item['produce_key']}:</th>
+							<td>{$item['produce_value']}</td>
+						</tr>
+						{/foreach}
+					{/foreach}
 					</tbody>
 				</table>
 			</div>
