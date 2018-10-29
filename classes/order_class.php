@@ -95,11 +95,21 @@ class Order_Class
 		}
 		else if($orderRow['pay_status'] == 0)
 		{
-			$dataArray = array(
-				'status'     => ($orderRow['status'] == 5) ? 5 : 2,
-				'pay_time'   => ITime::getDateTime(),
-				'pay_status' => 1,
-			);
+//			$dataArray = array(
+//				'status'     => ($orderRow['status'] == 5) ? 5 : 2,
+//				'pay_time'   => ITime::getDateTime(),
+//				'pay_status' => 1,
+//			);
+
+            //系统自动发货
+            $dataArray = array(
+                'status'     => ($orderRow['status'] == 5) ? 5 : 5,
+                'pay_time'   => ITime::getDateTime(),
+                'pay_status' => 1,
+                'distribution_status' => 1,
+                'send_time' => ITime::getDateTime('',time() + 5),
+                'completion_time' => ITime::getDateTime('',time() + 10),
+            );
 
 			$orderObj->setData($dataArray);
 			$is_success = $orderObj->update('order_no = "'.$orderNo.'"');
@@ -107,6 +117,11 @@ class Order_Class
 			{
 				return false;
 			}
+
+            //系统自动发货
+            $orderGoodsDB = new IModel('order_goods');
+            $orderGoodsDB->setData(array('is_send' => 1));
+            $orderGoodsDB->update('order_id = '.$orderRow['id']);
 
 			//删除订单中使用的道具
 			$ticket_id = trim($orderRow['prop']);
@@ -444,6 +459,9 @@ class Order_Class
 	 			{
 	 				$data['goods_amount'] += $value['real_price']   * $value['goods_nums'];
 	 				$data['goods_weight'] += $value['goods_weight'] * $value['goods_nums'];
+
+	 				//系统自动发货配置信息
+                    $data['spec_array_produce'] = json_decode($value['spec_array_produce']);
 	 			}
 	 		}
 
@@ -561,6 +579,11 @@ class Order_Class
 				$goodsArray['goods_weight']= $val['weight'];
 				$goodsArray['goods_array'] = IFilter::addSlash(JSON::encode($specArray));
 				$goodsArray['seller_id']   = $val['seller_id'];
+
+				//存储系统自动发货配置信息
+                $spec_array_produce = Api::run('getGoodsProduceById',array('#id#',$val['goods_id']));
+				$goodsArray['spec_array_produce']   = isset($spec_array_produce[0]['spec_array_produce'])?$spec_array_produce[0]['spec_array_produce']:0;
+
 				$orderGoodsObj->setData($goodsArray);
 				if(!$orderGoodsObj->add())
 				{

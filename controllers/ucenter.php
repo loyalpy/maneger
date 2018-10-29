@@ -121,7 +121,6 @@ class Ucenter extends IController implements userAuthorization
 
         $orderObj = new order_class();
         $this->order_info = $orderObj->getOrderShow($id,$this->user['user_id']);
-
         if(!$this->order_info)
         {
         	IError::show(403,'订单信息不存在');

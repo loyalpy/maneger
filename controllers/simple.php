@@ -388,7 +388,6 @@ class Simple extends IController
 		//获取商品数据信息
     	$countSumObj = new CountSum($user_id);
 		$goodsResult = $countSumObj->cart_count($gid,$type,$num,$promo,$active_id);
-
 		if($countSumObj->error)
 		{
 			IError::show(403,$countSumObj->error);
@@ -722,7 +721,7 @@ class Simple extends IController
 		//订单金额为0时，订单自动完成
 		if($this->final_sum <= 0)
 		{
-			$this->redirect('/site/success/message/'.urlencode("订单确认成功，等待发货"));
+			$this->redirect('/site/success/message/'.urlencode("订单支付成功"));
 		}
 		else
 		{

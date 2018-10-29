@@ -4,7 +4,7 @@
 	<article>
 
 		<strong>{echo:IReq::get('message') ? IFilter::act(IReq::get('message'),'text') : '操作成功！'}</strong><br>
-		您现在可以去：
+		您现在可以去【个人中心 >> 我的订单 >> 订单详情】查看发货信息：
 
 		{set:$callback = plugin::trigger('getCallback')}
 		{if:$callback}
@@ -12,10 +12,10 @@
 		{/if}
 
 		{if:$this->user['user_id']}
-		<a href="{url:/ucenter/index}">个人中心 >></a>
+		<a href="{url:/ucenter/index}" style="color: green">个人中心</a>
 		{/if}
 
-		<a href="{url:/site/index}">网站首页 >></a>
+		<!--<a href="{url:/site/index}">网站首页 >></a>-->
 
 	</article>
 </section>
