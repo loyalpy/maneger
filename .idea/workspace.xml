@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a51e4a9-50c6-4ccf-8031-352936ba3a97" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/api/api_resource.php" afterPath="$PROJECT_DIR$/classes/api/api_resource.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/order_class.php" afterPath="$PROJECT_DIR$/classes/order_class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/sysdm/order/order_show.html" afterPath="$PROJECT_DIR$/views/sysdm/order/order_show.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/sysseller/seller/order_show.html" afterPath="$PROJECT_DIR$/views/sysseller/seller/order_show.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/site_config.php" afterPath="$PROJECT_DIR$/config/site_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/simple.php" afterPath="$PROJECT_DIR$/controllers/simple.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,44 +14,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="order_show.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/sysdm/order/order_show.html">
+      <file leaf-file-name="order.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/huawei/ucenter/order.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="616" column="37" lean-forward="false" selection-start-line="616" selection-start-column="23" selection-end-line="616" selection-end-column="37" />
+            <state relative-caret-position="-39">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/default/ucenter/order.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/simple.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="820">
+              <caret line="728" column="37" lean-forward="true" selection-start-line="728" selection-start-column="37" selection-end-line="728" selection-end-column="37" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="e#15382#16506#0#PHP" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/order.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-891">
-              <caret line="220" column="41" lean-forward="false" selection-start-line="220" selection-start-column="24" selection-end-line="220" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order_class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classes/order_class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="132" column="17" lean-forward="true" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api_resource.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/api/api_resource.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="492" column="27" lean-forward="false" selection-start-line="492" selection-start-column="25" selection-end-line="492" selection-end-column="27" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -63,7 +50,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>设置分类</find>
       <find>确认无误</find>
       <find>status</find>
       <find>sendTakeself</find>
@@ -93,6 +79,7 @@
       <find>orderPayFinish</find>
       <find>getGoodsProduceById</find>
       <find>spec_array_produce</find>
+      <find>备货时间</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,13 +132,13 @@
         <option value="$PROJECT_DIR$/controllers/seller.php" />
         <option value="$PROJECT_DIR$/views/sysseller/seller/goods_edit.html" />
         <option value="$PROJECT_DIR$/views/huawei/site/success.html" />
-        <option value="$PROJECT_DIR$/controllers/simple.php" />
         <option value="$PROJECT_DIR$/controllers/ucenter.php" />
         <option value="$PROJECT_DIR$/views/huawei/ucenter/order_detail.html" />
         <option value="$PROJECT_DIR$/views/sysdm/order/order_show.html" />
         <option value="$PROJECT_DIR$/views/sysseller/seller/order_show.html" />
         <option value="$PROJECT_DIR$/classes/api/api_resource.php" />
         <option value="$PROJECT_DIR$/classes/order_class.php" />
+        <option value="$PROJECT_DIR$/controllers/simple.php" />
       </list>
     </option>
   </component>
@@ -195,22 +182,6 @@
             <path>
               <item name="maneger" type="b2602c69:ProjectViewProjectNode" />
               <item name="maneger" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="maneger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maneger" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="maneger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maneger" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="maneger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maneger" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -224,7 +195,7 @@
               <item name="maneger" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="huawei" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ucenter" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -235,7 +206,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="order_collection&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/order/order_collection.html&#10;order_show&#9;FILE&#9;file://E:/webroot/maneger/views/sysseller/seller/order_show.html&#10;order_detail&#9;FILE&#9;file://E:/webroot/maneger/views/huawei/ucenter/order_detail.html&#10;order_deliver&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/order/order_deliver.html&#10;rechargrecords&#9;null&#9;null&#10;cart2&#9;FILE&#9;file://E:/webroot/maneger/views/huawei/simple/cart2.html&#10;online_recharge&#9;FILE&#9;file://E:/webroot/maneger/views/huawei/ucenter/online_recharge.html&#10;invoice&#9;FILE&#9;file://E:/webroot/maneger/views/huawei/ucenter/invoice.html&#10;style.css&#9;FILE&#9;file://E:/webroot/maneger/views/huawei/skin/default/style/style.css&#10;getPaymentListByOnline&#9;null&#9;null&#10;getPaymentList&#9;null&#9;null&#10;getOrderList&#9;null&#9;null&#10;member_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/member/member_list.html&#10;cart2.html&#9;FILE&#9;file://E:/webroot/maneger/views/huawei/simple/cart2.html&#10;order_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/order/order_list.html&#10;index.html&#9;FILE&#9;file://E:/webroot/maneger/views/huawei/site/index.html&#10;default.html&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/system/default.html&#10;bitcoin/bank_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/goods/goods_list.html&#10;goods.php&#9;FILE&#9;file://E:/webroot/maneger/controllers/goods.php&#10;goods_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/goods/goods_list.html" />
+    <property name="SearchEverywhereHistoryKey" value="order.html&#9;FILE&#9;file://E:/webroot/maneger/views/default/ucenter/order.html&#10;order_collection&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/order/order_collection.html&#10;order_show&#9;FILE&#9;file://E:/webroot/maneger/views/sysseller/seller/order_show.html&#10;order_detail&#9;FILE&#9;file://E:/webroot/maneger/views/huawei/ucenter/order_detail.html&#10;order_deliver&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/order/order_deliver.html&#10;rechargrecords&#9;null&#9;null&#10;cart2&#9;FILE&#9;file://E:/webroot/maneger/views/huawei/simple/cart2.html&#10;online_recharge&#9;FILE&#9;file://E:/webroot/maneger/views/huawei/ucenter/online_recharge.html&#10;invoice&#9;FILE&#9;file://E:/webroot/maneger/views/huawei/ucenter/invoice.html&#10;style.css&#9;FILE&#9;file://E:/webroot/maneger/views/huawei/skin/default/style/style.css&#10;getPaymentListByOnline&#9;null&#9;null&#10;getPaymentList&#9;null&#9;null&#10;getOrderList&#9;null&#9;null&#10;member_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/member/member_list.html&#10;cart2.html&#9;FILE&#9;file://E:/webroot/maneger/views/huawei/simple/cart2.html&#10;order_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/order/order_list.html&#10;index.html&#9;FILE&#9;file://E:/webroot/maneger/views/huawei/site/index.html&#10;default.html&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/system/default.html&#10;bitcoin/bank_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/goods/goods_list.html&#10;goods.php&#9;FILE&#9;file://E:/webroot/maneger/controllers/goods.php&#10;goods_list&#9;FILE&#9;file://E:/webroot/maneger/views/sysdm/goods/goods_list.html" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../www-xgx" />
   </component>
   <component name="RunDashboard">
@@ -279,12 +250,12 @@
       <workItem from="1540369750750" duration="28426000" />
       <workItem from="1540515709180" duration="3069000" />
       <workItem from="1540603415374" duration="12734000" />
-      <workItem from="1540774014033" duration="19235000" />
+      <workItem from="1540774014033" duration="19847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181460000" />
+    <option name="totallyTimeSpent" value="182072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -322,20 +293,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/payments/pay_paypal/paypal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
-          <caret line="72" column="63" lean-forward="false" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/payments/pay_code_pay/code_pay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="59" column="16" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/paymentplugin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
@@ -646,16 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/simple.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="723" column="70" lean-forward="true" selection-start-line="723" selection-start-column="70" selection-end-line="723" selection-end-column="70" />
-          <folding>
-            <element signature="e#15382#16506#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/ucenter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -741,8 +688,34 @@
     <entry file="file://$PROJECT_DIR$/classes/order_class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="132" column="17" lean-forward="true" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
+          <caret line="132" column="17" lean-forward="false" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/huawei/ucenter/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/default/ucenter/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/simple.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="728" column="37" lean-forward="true" selection-start-line="728" selection-start-column="37" selection-end-line="728" selection-end-column="37" />
+          <folding>
+            <element signature="e#15382#16506#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -706,7 +706,7 @@ class Simple extends IController
 		}
 
 		//获取备货时间
-		$this->stockup_time = $this->_siteConfig->stockup_time ? $this->_siteConfig->stockup_time : 2;
+		$this->stockup_time = $this->_siteConfig->stockup_time ? $this->_siteConfig->stockup_time : 0;
 
 		//数据渲染
 		$this->order_id    = join("_",$orderIdArray);
