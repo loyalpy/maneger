@@ -36,7 +36,7 @@
   'viewPath' => 'views',
   'skinPath' => 'skin',
   'classes' => 'classes.*',
-  'rewriteRule' => 'url',
+  'rewriteRule' => 'pathinfo',
   'theme' => 
   array (
     'pc' => 

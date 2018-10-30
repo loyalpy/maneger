@@ -139,8 +139,13 @@ class goods_class
 		//系统自动发货配置信息
         $guideName = IReq::get('guide_name');
         $guideLink = IReq::get('guide_link');
-        $produce_data      = array();
 
+        //验证是否添加系统自动发货配置信息
+        if ($guideName == null || (isset($guideName[0]) && !$guideName[0])){
+            die("请填写系统自动发货配置信息");
+        }
+
+        $produce_data      = array();
         if($guideName)
         {
             foreach($guideName as $key => $val)
@@ -189,7 +194,7 @@ class goods_class
 			if($goodsDB->update($where) <= 0)
 			{
 				$goodsDB->rollback();
-				die("更新商品错误");
+				die("更新商品错误或者您没有对商品做任何修改");
 			}
 		}
 		else
