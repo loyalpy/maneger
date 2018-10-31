@@ -25,7 +25,7 @@ class System extends IController implements adminAuthorization
 		$site_config['smtp_pwd']     = IReq::get('smtp_pwd');
 		$site_config['smtp_port']    = IReq::get('smtp_port');
 		$site_config['email_safe']   = IReq::get('email_safe');
-		$site_config['name']         = "iWebShop";
+		$site_config['name']         = "211gou";
 		$test_address                = IReq::get('test_address');
 
 		$smtp = new SendMail($site_config);

@@ -721,7 +721,7 @@ class Simple extends IController
 		//订单金额为0时，订单自动完成
 		if($this->final_sum <= 0)
 		{
-			$this->redirect('/site/success/message/'.urlencode("订单支付成功"));
+			$this->redirect('/site/success/message/'.urlencode("支付成功！请到[个人中心>我的订单]或[注册邮箱]查看发货信息。"));
 		}
 		else
 		{

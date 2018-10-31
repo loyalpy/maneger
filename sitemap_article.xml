@@ -2,7 +2,7 @@
 <?xml-stylesheet href="http://www.manman.com/sitemaps.xsl" type="text/xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd">
   <url>
-    <loc>http://www.manman.com/index.php?controller=site&amp;action=article_detail&amp;id=1</loc>
+    <loc>http://www.manman.com/site/article_detail/id/1</loc>
     <lastmod>2018-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -11,7 +11,7 @@
     </data>
   </url>
   <url>
-    <loc>http://www.manman.com/index.php?controller=site&amp;action=article_detail&amp;id=2</loc>
+    <loc>http://www.manman.com/site/article_detail/id/2</loc>
     <lastmod>2018-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -20,7 +20,7 @@
     </data>
   </url>
   <url>
-    <loc>http://www.manman.com/index.php?controller=site&amp;action=article_detail&amp;id=3</loc>
+    <loc>http://www.manman.com/site/article_detail/id/3</loc>
     <lastmod>2018-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -29,7 +29,7 @@
     </data>
   </url>
   <url>
-    <loc>http://www.manman.com/index.php?controller=site&amp;action=article_detail&amp;id=4</loc>
+    <loc>http://www.manman.com/site/article_detail/id/4</loc>
     <lastmod>2018-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -38,7 +38,7 @@
     </data>
   </url>
   <url>
-    <loc>http://www.manman.com/index.php?controller=site&amp;action=article_detail&amp;id=5</loc>
+    <loc>http://www.manman.com/site/article_detail/id/5</loc>
     <lastmod>2018-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

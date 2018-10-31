@@ -154,7 +154,7 @@ class Order_Class
 
 				//获取用户信息
 				$memberObj  = new IModel('member');
-				$memberRow  = $memberObj->getObj('user_id = '.$user_id,'prop,group_id');
+				$memberRow  = $memberObj->getObj('user_id = '.$user_id,'prop,group_id,email');
 
 				//(1)删除订单中使用的道具
 				if($ticket_id != '')
@@ -231,26 +231,38 @@ class Order_Class
 			}
 
 			//自提点短信发送
-			self::sendTakeself($orderNo);
-			$mobile = "";
+//			self::sendTakeself($orderNo);
+//			$mobile = "";
 
 			//订单付款后短信通知商家或者管理员进行订单处理
-			if($orderRow['seller_id'] > 0)
-			{
-				$sellerObj = new IModel('seller');
-				$sellerRow = $sellerObj->getObj("id = ".$orderRow['seller_id']);
-				$mobile    = $sellerRow['mobile'] ? $sellerRow['mobile'] : "";
-			}
-			else
-			{
-				$config = new Config('site_config');
-				$mobile = $config->mobile ? $config->mobile : "";
-			}
-			$smsContent = smsTemplate::payFinishToAdmin(array('{orderNo}' => $orderNo));
-			Hsms::send($mobile,$smsContent,0);
+//			if($orderRow['seller_id'] > 0)
+//			{
+//				$sellerObj = new IModel('seller');
+//				$sellerRow = $sellerObj->getObj("id = ".$orderRow['seller_id']);
+//				$mobile    = $sellerRow['mobile'] ? $sellerRow['mobile'] : "";
+//			}
+//			else
+//			{
+//				$config = new Config('site_config');
+//				$mobile = $config->mobile ? $config->mobile : "";
+//			}
+//			$smsContent = smsTemplate::payFinishToAdmin(array('{orderNo}' => $orderNo));
+//			Hsms::send($mobile,$smsContent,0);
 
 			//线上支付完成发送事件
 			plugin::trigger('orderPayFinish',$orderRow);
+
+			//订单付款后邮箱通知用户系统自动发货信息
+            if (isset($spec_array_produce[0]['spec_array_produce']) && isset($memberRow['email']) && $memberRow['email']){
+                $content = "";
+                $_produce = json_decode($spec_array_produce[0]['spec_array_produce']);
+                foreach ($_produce as $key=>$val){
+                    $content .= $val->produce_key .":". $val->produce_value . "<br/>";
+                }
+                $content = mailTemplate::produce_notify(array("{content}" => $content));
+                $smtp   = new SendMail();
+                $smtp->send($memberRow['email'],"您在211gou平台购买的内容",$content);
+            }
 
 			return $orderRow['id'];
 		}

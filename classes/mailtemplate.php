@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright (c) 2014 aircheng.com
+ * @copyright (c) 2018 211gou.com
  * @file sendmail.php
  * @brief 邮件数据模板
  * @author chendeshan
@@ -43,4 +43,15 @@ class mailTemplate
 		$templateString = "尊敬的用户，您需要购买的 <{goodsName}> 现已全面到货，机不可失，从速购买！ <a href='{url}' target='_blank'>立即购买</a>";
 		return strtr($templateString,$param);
 	}
+
+    /**
+     * @brief 系统自动发货邮件通知
+     * @param array $param 模版参数
+     * @return string
+     */
+    public static function produce_notify($param)
+    {
+        $templateString = "尊敬的用户，您在211gou平台购买了以下内容： <br/><br/> {content}<br/>感谢您的支持，祝生活愉快！";
+        return strtr($templateString,$param);
+    }
 }
