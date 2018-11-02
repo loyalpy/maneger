@@ -29,12 +29,12 @@
 	</div>
 	<!--自定义您的首页快速连接菜单-->
 	<ul class="feature_list">
-		<li><a href="{url:/site/sitemap}"><i class="fa fa-sitemap"></i></a></li>
-		<li><a href="{url:/site/seller}"><i class="fa fa-users"></i></a></li>
-		<li><a href="{url:/site/brand}"><i class="fa fa-star"></i></a></li>
-		<li><a href="{url:/site/sale}"><i class="fa fa-clock-o"></i></a></li>
-		<li><a href="{url:/site/help_list}"><i class="fa fa-question-circle"></i></a></li>
-		<li><a href="{url:/site/tags}"><i class="fa fa-tags"></i></a></li>
+		<li><a href="{url:/site/sitemap}" title="网站地图"><i class="fa fa-sitemap"></i></a></li>
+		<li><a href="{url:/site/seller}" title="商家列表"><i class="fa fa-users"></i></a></li>
+		<li><a href="{url:/site/brand}" title="推荐品牌"><i class="fa fa-star"></i></a></li>
+		<li><a href="{url:/site/sale}" title="特价活动"><i class="fa fa-clock-o"></i></a></li>
+		<li><a href="{url:/site/help_list}" title="帮助中心"><i class="fa fa-question-circle"></i></a></li>
+		<li><a href="{url:/site/tags}" title="网站标签"><i class="fa fa-tags"></i></a></li>
 	</ul>
 	<div class="feature_content">
 		<h4>
@@ -50,7 +50,7 @@
 <!-- 商城公告和新闻动态 -->
 
 <!-- 广告位 -->
-<section class="home_focus_show">
+<section class="home_focus_show" style="display: none">
 	<div class="show_list">{echo:Ad::show("首页焦点图下广告0_291*160(huawei)")}</div>
 	<div class="show_list">{echo:Ad::show("首页焦点图下广告1_291*160(huawei)")}</div>
 	<div class="show_list">{echo:Ad::show("首页焦点图下广告2_291*160(huawei)")}</div>
@@ -183,7 +183,7 @@
 <!-- 主页活动section：recommend-推荐商品、group_buy-团购商品、panic_buy限时抢购 -->
 
 <!-- 广告位 -->
-<section class="home_focus_show">
+<section class="home_focus_show" style="display: none">
 	<div class="banner_wrapper">{echo:Ad::show("首页限时抢购下面广告1200*120(huewei)")}</div>
 </section>
 <!-- 广告位 -->
@@ -253,7 +253,7 @@
 {/foreach}
 
 <!-- 广告位 -->
-<section class="home_focus_show">
+<section class="home_focus_show" style="display: none">
 	<div class="banner_wrapper">{echo:Ad::show("首页底部广告1200*120(huewei)")}</div>
 </section>
 <!-- 广告位 -->

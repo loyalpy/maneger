@@ -291,7 +291,7 @@ function productClass(goods_id,user_id,promo,active_id)
 		{
 			case 1:
 			{
-				buyNums++;
+				// buyNums++;
 			}
 			break;
 

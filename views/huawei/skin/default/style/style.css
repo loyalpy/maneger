@@ -198,11 +198,11 @@ abbr[title], acronym[title] { border-bottom: 1px dotted; cursor: help; }
 .header_top .top_tool li a:hover { color: #ca151d; }
 
 .header { position: relative; z-index: 99; }
-.header .body_wrapper { height: 70px; background: #fafafa; }
-.header .body_wrapper .logo_layer { width: 300px; height: 70px; float: left; }
-.header .body_wrapper .logo_layer .logo { display: table-cell; vertical-align: middle; width: 300px; height: 70px; }
-.header .body_wrapper .logo_layer .logo img { vertical-align: middle; max-width: 300px; max-height: 70px; }
-.header .body_wrapper .body_toolbar { float: right; height: 32px; background-color: #FFF; margin: 20px 0 0 20px; position: relative; }
+.header .body_wrapper { height: 96px; background: #fafafa; }
+.header .body_wrapper .logo_layer { width: 300px; height: 96px; float: left; }
+.header .body_wrapper .logo_layer .logo { display: table-cell; vertical-align: middle; width: 300px; height: 96px; }
+.header .body_wrapper .logo_layer .logo img { vertical-align: middle; max-width: 300px; max-height: 96px; }
+.header .body_wrapper .body_toolbar { float: right; height: 32px; background-color: #FFF; margin: 30px 0 0 20px; position: relative; }
 .header .body_wrapper .body_toolbar:hover .body_toolbar_layer { display: block; }
 .header .body_wrapper .body_toolbar .body_toolbar_btn { width: 108px; height: 32px; text-align: center; border: 1px solid #eaeaea; }
 .header .body_wrapper .body_toolbar .userinfo a { color: #000; width: 77px; overflow: hidden; white-space: nowrap; line-height: 32px; display: inline-block; }
@@ -229,10 +229,10 @@ abbr[title], acronym[title] { border-bottom: 1px dotted; cursor: help; }
 .header .body_wrapper .body_toolbar .login_reg { line-height: 32px; color: #000; text-align: center; }
 .header .body_wrapper .body_toolbar .login_reg em { color: #eaeaea; padding: 0 8px; }
 .header .body_wrapper .body_toolbar .login_reg a:hover { color: #ca151d; }
-.header .body_wrapper .header_cart { float: right; height: 32px; border: 1px solid #eaeaea; background-color: #FFF; margin-top: 20px; margin-left: 20px; position: relative; z-index: 990; }
+.header .body_wrapper .header_cart { float: right; height: 32px; border: 1px solid #eaeaea; background-color: #FFF; margin-top: 30px; margin-left: 20px; position: relative; z-index: 990; }
 .header .body_wrapper .header_cart .go_cart { position: relative; height: 32px; width: 32px; display: block; line-height: 36px; text-align: center; z-index: 999; }
 .header .body_wrapper .header_cart .go_cart i { font-size: 18px; }
-.header .body_wrapper .header_cart .go_cart em { position: absolute; top: -10px; right: -12px; padding: 4px 4.5px; border-radius: 20px; line-height: 1; max-width: 22px; min-width: 12px; background-color: #ca151d; text-align: center; color: #FFF; }
+.header .body_wrapper .header_cart .go_cart em { position: absolute; top: -10px; right: -12px; padding: 4px 4.5px; border-radius: 20px; line-height: 1; max-width: 22px; min-width: 12px; background-color: #026CA6; text-align: center; color: #FFF; }
 .header .body_wrapper .header_cart .cart_simple { position: relative; }
 .header .body_wrapper .header_cart .cart_simple .cart_panel { width: 370px; right: 0; top: 0; position: absolute; z-index: 413; overflow: hidden; border: 1px solid #EEE; background-color: #FFF; box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); }
 .header .body_wrapper .header_cart .cart_simple .cart_panel .cart_list { overflow: hidden; overflow-y: auto; max-height: 610px; }
@@ -251,7 +251,7 @@ abbr[title], acronym[title] { border-bottom: 1px dotted; cursor: help; }
 .header .body_wrapper .header_cart .cart_simple .cart_panel .cart_total p em { color: #ca151d; }
 .header .body_wrapper .header_cart .cart_simple .cart_panel .cart_total a { display: inline-block; color: #FFF; border: 1px solid #ca151d; background-color: #ca151d; font-size: 16px; width: 108px; height: 34px; text-align: center; line-height: 34px; position: absolute; right: 15px; top: 14px; }
 .header .body_wrapper .header_cart .cart_simple .cart_panel .cart_no { color: #555; font-size: 14px; line-height: 3; text-align: center; }
-.header .body_wrapper .search_box { float: right; padding: 20px 0 0 0; z-index: 411; position: relative; }
+.header .body_wrapper .search_box { float: right; padding: 30px 0 0 0; z-index: 411; position: relative; }
 .header .body_wrapper .search_box .search { line-height: 1; border: 1px solid #EEE; width: 466px; height: 32px; overflow: hidden; }
 .header .body_wrapper .search_box .search .search_keyword { background-color: #fff; border: 0 none; width: 413px; height: 22px; line-height: 22px; padding: 5px 10px; vertical-align: top; border-right: 1px solid #eaeaea; outline: none; }
 .header .body_wrapper .search_box .search .search_submit { width: 32px; height: 32px; cursor: pointer; border: 0 none; font-size: 16px; vertical-align: top; position: absolute; background-color: #FFF; text-align: center; }
@@ -276,7 +276,7 @@ abbr[title], acronym[title] { border-bottom: 1px dotted; cursor: help; }
 .header .nav_bar .category_list .cat_list li .cat_nav i { display: block; position: absolute; top: 48%; right: 10px; color: #afafaf; font-size: 24px; }
 .header .nav_bar .category_list .cat_list li .cat_more { display: none; position: absolute; left: 240px; top: 0; width: 648px; height: 448px; background-color: #FFF; border-top: 1px solid #eaeaea; border-bottom: 1px solid #eaeaea; }
 .header .nav_bar .category_list .cat_list li .cat_more > h3 { padding: 20px 28px 20px 40px; width: 580px; height: 30px; line-height: 30px; }
-.header .nav_bar .category_list .cat_list li .cat_more > h3 a { display: block; width: 580px; height: 30px; font-size: 14px; color: #ca151d; }
+.header .nav_bar .category_list .cat_list li .cat_more > h3 a { display: block; width: 580px; height: 30px; font-size: 14px; color: #026CA6; }
 .header .nav_bar .category_list .cat_list li .cat_more > h3 a i { float: right; font-size: 18px; margin: 6px 0; }
 .header .nav_bar .category_list .cat_list li .cat_more .cat_nav_list { width: 580px; padding: 36px 28px 0 40px; border-top: 1px solid #eaeaea; }
 .header .nav_bar .category_list .cat_list li .cat_more .cat_nav_list li { float: left; padding-bottom: 36px; vertical-align: top; }

@@ -135,7 +135,7 @@
 					<dd>
 						<div class="goods_resize">
 							<span class="reduce" id="buyReduceButton">─</span>
-							<input class="input" type="text" id="buyNums" value="1" maxlength="5" />
+							<input class="input" type="text" id="buyNums" value="1" maxlength="5" disabled/>
 							<span class="add" id="buyAddButton">+</span>
 						</div>
 					</dd>
@@ -176,13 +176,13 @@
 						<li>品牌：{$brand}</li>
 						{/if}
 
-						{if:isset($weight) && $weight}
-						<li>商品毛重：<label id="data_weight">{$weight}</label></li>
-						{/if}
+						<!--{if:isset($weight) && $weight}-->
+						<!--<li>商品毛重：<label id="data_weight">{$weight}</label></li>-->
+						<!--{/if}-->
 
-						{if:isset($unit) && $unit}
-						<li>单位：{$unit}</li>
-						{/if}
+						<!--{if:isset($unit) && $unit}-->
+						<!--<li>单位：{$unit}</li>-->
+						<!--{/if}-->
 
 						{if:isset($up_time) && $up_time}
 						<li>上架时间：{$up_time}</li>
