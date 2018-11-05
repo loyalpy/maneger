@@ -261,8 +261,11 @@ class Order_Class
                 }
                 $content = mailTemplate::produce_notify(array("{content}" => $content));
                 $smtp   = new SendMail();
-                $smtp->send($memberRow['email'],"您在211gou平台购买的内容",$content);
+                $smtp->send($memberRow['email'],"您在云耕耘平台购买的内容",$content);
             }
+
+            //增加用户评论商品机会。注意：此方法专门针对系统自动发货使用，如果后期有非自动发货，需要另做调整
+            Order_Class::addGoodsCommentChange($orderRow['id']);
 
 			return $orderRow['id'];
 		}

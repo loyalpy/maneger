@@ -48274,7 +48274,7 @@ CREATE TABLE `iwebshop_guide` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='首页导航栏';
 
 INSERT INTO `iwebshop_guide` VALUES
-('0','产品官网','http://www.aircheng.com','0'),
+('0','产品官网','http://www.yungengyun.com','0'),
 ('1','商家管理','seller/index','0'),
 ('2','后台管理','admin/index','0');
 

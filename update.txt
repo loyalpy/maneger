@@ -1,4 +1,4 @@
-更新信息请关注：http://www.aircheng.com
+更新信息请关注：http://www.yungengyun.com
 
 +++++++新增部分++++++++++++++++++++
 新增城市定位接口 IClient::getLocal();

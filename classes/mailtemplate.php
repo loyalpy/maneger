@@ -51,7 +51,7 @@ class mailTemplate
      */
     public static function produce_notify($param)
     {
-        $templateString = "尊敬的用户，您在211gou平台购买了以下内容： <br/><br/> {content}<br/>感谢您的支持，祝生活愉快！";
+        $templateString = "尊敬的用户，您在云耕耘平台购买了以下内容： <br/><br/> {content}<br/>感谢您的支持，祝生活愉快！";
         return strtr($templateString,$param);
     }
 }
