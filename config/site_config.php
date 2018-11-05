@@ -8,7 +8,7 @@
   'smtp_port' => '465',
   'order_by' => 'new',
   'name' => '211gou电子商务平台',
-  'url' => 'http://www.211gou.com',
+  'url' => 'http://www.yungengyun.com',
   'master' => '',
   'qq' => '',
   'email' => '',
@@ -30,4 +30,5 @@
   'sms_username' => '',
   'sms_pwd' => '',
   'test_address' => '1608626550@qq.com',
+  'logo' => 'upload/2018/11/05/20181105100311320.png',
 )?>

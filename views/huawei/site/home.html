@@ -40,7 +40,7 @@
 			<h3 class="bar_box_head">商户信息</h3>
 			<div class="bar_seller">
 				<h1>{$sellerRow['true_name']}</h1>
-				<p><img src="{webroot:$sellerRow['logo']}" style="width:100%" onerror="this.src='http://www.aircheng.com/images/public/default_logo.png'" /></p>
+				<p><img src="{webroot:$sellerRow['logo']}" style="width:100%" onerror="this.src='{skin:image/logo_seller.png}'" /></p>
 				<div class="star_box">
 					<strong class="item">评分：</strong>
 					<span class="star star_{echo:statistics::gradeSeller($sellerRow['id'])}"></span>

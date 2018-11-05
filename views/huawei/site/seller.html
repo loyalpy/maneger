@@ -17,7 +17,7 @@
 					<li>
 						<a href="{url:/site/home/id/$item['id']}">
 							<h3>{$item['true_name']}</h3>
-							<img src="{webroot:$item['logo']}" style="width:100%" onerror="this.src='http://www.aircheng.com/images/public/default_logo.png'" />
+							<img src="{webroot:$item['logo']}" style="width:100%" onerror="this.src='{skin:image/logo_seller.png}'" />
 							<div class="star_box">
 								<strong class="item">评分：</strong>
 								<span class="star stat_{echo:Common::gradeWidth(statistics::gradeSeller($item['id']))}"></span>
