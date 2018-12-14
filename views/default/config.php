@@ -5,7 +5,7 @@ return array(
 	'time'    => '2014/12/29 10:03:05',
 	'version' => '4.7',
 	'thumb'   => 'preview.jpg',
-	'info'    => 'aircheng旗下，211gou产品首款默认主题方案，此主题适用于211gou1.0+系列产品',
+	'info'    => '云耕耘产品首款默认主题方案，此主题适用于云耕耘1.0+系列产品',
 	'type'    => '商城前台-PC',
 	'ad'      => array(
 		"页面顶部通栏广告条960*70(default)",

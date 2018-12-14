@@ -49133,7 +49133,7 @@ CREATE TABLE `iwebshop_seller` (
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='商家表';
 
 INSERT INTO `iwebshop_seller` VALUES
-('1','admin','21232f297a57a5a743894a0e4a801fc3','2018-08-20 11:10:17','2018-08-20 11:11:19','0','0','0','211购','468650996@qq.com','15838281830','18067936571','upload/2018/08/20/20180820111017912.png','','','440000','440100','440105','新港东路1000号保利世界贸易中心C座7层整层','','','http://www.211gou.com','99','0.00','','0','2','0','','0');
+('1','admin','21232f297a57a5a743894a0e4a801fc3','2018-08-20 11:10:17','2018-08-20 11:11:19','0','0','0','211购','468650996@qq.com','15838281830','18067936571','upload/2018/08/20/20180820111017912.png','','','440000','440100','440105','新港东路1000号保利世界贸易中心C座7层整层','','','http://www.yungengyun.com','99','0.00','','0','2','0','','0');
 
 DROP TABLE IF EXISTS `iwebshop_seller_message`;
 CREATE TABLE `iwebshop_seller_message` (

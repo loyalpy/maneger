@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright (c) 2018 211gou.com
+ * @copyright (c) 2018 yungengyun.com
  * @file sendmail.php
  * @brief 邮件数据模板
  * @author chendeshan

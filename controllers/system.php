@@ -25,7 +25,7 @@ class System extends IController implements adminAuthorization
 		$site_config['smtp_pwd']     = IReq::get('smtp_pwd');
 		$site_config['smtp_port']    = IReq::get('smtp_port');
 		$site_config['email_safe']   = IReq::get('email_safe');
-		$site_config['name']         = "211gou";
+		$site_config['name']         = "云耕耘";
 		$test_address                = IReq::get('test_address');
 
 		$smtp = new SendMail($site_config);
@@ -36,7 +36,7 @@ class System extends IController implements adminAuthorization
 		else
 		{
 			$title    = 'email test';
-			$content  = '您好，这是来自211gou系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。';
+			$content  = '您好，这是来自云耕耘系统的测试邮件，如果您能收到此邮件那么恭喜您，系统邮件服务正常。';
 			if($smtp->send($test_address,$title,$content))
 			{
 				$result = array('isError'=>false,'message' => '恭喜你！测试通过');

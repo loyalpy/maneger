@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright Copyright(c) 2018 211gou.com
+ * @copyright Copyright(c) 2018 yungengyun.com
  * @file code_pay.php
  * @brief 码支付接口
  * @author py

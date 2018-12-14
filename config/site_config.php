@@ -15,7 +15,7 @@
   'mobile' => '15838281830',
   'phone' => '',
   'address' => '',
-  'site_footer_code' => '<div class=\\"footer\\" style=\\"text-align:center;\\">	<p class=\\"links\\">		<a href=\\"\\">关于我们</a>|<a href=\\"\\">常见问题</a>|<a href=\\"\\">安全交易</a>|<a href=\\"\\">购买流程</a>|<a href=\\"\\">如何付款</a>|<a href=\\"\\">联系我们</a>|<a href=\\"\\">合作提案</a>	</p>	<p class=\\"copyright\\">		Powered by <a href=\\"http://www.yungengyun.com\\">iWebShop</a>	</p>Copyright © 2005-2014 <a class=\\"copyys\\" target=\\"_blank\\" href=\\"http://www.miibeian.gov.cn/\\">X</a>XXXXX备XXXXXXX号</div>',
+  'site_footer_code' => '<div class=\\"footer\\" style=\\"text-align:center;\\">	<p class=\\"links\\">		<a href=\\"/site/help/id/4\\">购物流程</a>|<a href=\\"/site/help/id/55\\">免责声明</a>|<a href=\\"/site/help/id/54\\">广告合作</a>|<a href=\\"/site/help/id/48\\">联系客服</a>|<a href=\\"/site/help/id/28\\">交易条款</a>|<a href=\\"/site/help/id/50\\">友情链接</a> 	</p>	<p class=\\"copyright\\">		Powered by <a href=\\"http://www.yungengyun.com\\">云耕耘</a> 	</p>Copyright © 2018 <a class=\\"copyys\\" target=\\"_blank\\" href=\\"http://www.miibeian.gov.cn/\\">X</a>XXXXX备XXXXXXX号</div>',
   'tax' => '10',
   'stockup_time' => '0',
   'index_seo_title' => '源码分享,视频分享,书籍分享,资料分享,软件分享',
